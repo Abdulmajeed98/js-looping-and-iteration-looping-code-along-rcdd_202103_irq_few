@@ -6,3 +6,10 @@ function writeCards(names, eventName){
   }
   return result;
 }
+
+countDown(boundery){
+  while (boundery >= 0) {
+    console.log(boundery);
+    boundery--;
+  }
+}
