@@ -7,7 +7,7 @@ function writeCards(names, eventName){
   return result;
 }
 
-countDown(boundery){
+function countDown(boundery){
   while (boundery >= 0) {
     console.log(boundery);
     boundery--;
