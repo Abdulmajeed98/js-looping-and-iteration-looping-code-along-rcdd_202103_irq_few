@@ -13,3 +13,5 @@ countDown(boundery){
     boundery--;
   }
 }
+
+countDown(10);
